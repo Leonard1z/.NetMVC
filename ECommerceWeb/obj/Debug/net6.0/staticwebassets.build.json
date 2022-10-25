@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MWbxGNTzdHo/vDUsDLAjHZ4TdFl2i1150e0C/XNVcmw=",
+  "Hash": "3HMrMpOZtJDNz/HoLh9WwV8U9p57FJ66RmpgI9eDIt0=",
   "Source": "ECommerceWeb",
   "BasePath": "_content/ECommerceWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ECommerceWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "ECommerceWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\",
+      "BasePath": "_content/ECommerceWeb",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\css\\site.css",

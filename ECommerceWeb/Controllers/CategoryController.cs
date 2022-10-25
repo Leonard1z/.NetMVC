@@ -1,32 +1,26 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using ECommerceWeb.Data;
+using ECommerceWeb.Models;
 
 namespace ECommerceWeb.Controllers
 {
-    [Route("[controller]")]
+
     public class CategoryController : Controller
     {
-        private readonly ILogger<CategoryController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public CategoryController(ILogger<CategoryController> logger)
+        public CategoryController(ApplicationDbContext db)
         {
-            _logger = logger;
+            _db = db;
         }
+
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Category> objCategoryList = _db.Categories;
+            return View(objCategoryList);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
     }
 }
