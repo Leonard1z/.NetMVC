@@ -1,0 +1,17 @@
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.AssemblyInfo.cs
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.DataAccess.deps.json
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.DataAccess.runtimeconfig.json
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.DataAccess.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.DataAccess.pdb
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.Models.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\bin\Debug\net6.0\ECommerce.Models.pdb
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.csproj.CopyComplete
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\refint\ECommerce.DataAccess.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.pdb
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ECommerce.DataAccess.genruntimeconfig.cache
+C:\Users\asus\Desktop\Ecommerce\ECommerce.DataAccess\obj\Debug\net6.0\ref\ECommerce.DataAccess.dll

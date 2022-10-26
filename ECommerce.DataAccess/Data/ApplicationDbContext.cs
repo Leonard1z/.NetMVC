@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ECommerceWeb.Models;
+using ECommerce.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerceWeb.Data
+namespace ECommerce.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {

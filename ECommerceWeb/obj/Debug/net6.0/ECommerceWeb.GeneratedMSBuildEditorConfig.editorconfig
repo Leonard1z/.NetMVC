@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECommerceWeb
 build_property.RootNamespace = ECommerceWeb
-build_property.ProjectDir = C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\
+build_property.ProjectDir = c:\Users\asus\Desktop\Ecommerce\ECommerceWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\asus\Desktop\Ecommerce\ECommerceWeb
+build_property.MSBuildProjectDirectory = c:\Users\asus\Desktop\Ecommerce\ECommerceWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Create.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Delete.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Edit.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Index.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Home/Index.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Home/Privacy.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/Error.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_Notification.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/_ViewImports.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/_ViewStart.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_Layout.cshtml]
+[c:/Users/asus/Desktop/Ecommerce/ECommerceWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j9fgwoox9j

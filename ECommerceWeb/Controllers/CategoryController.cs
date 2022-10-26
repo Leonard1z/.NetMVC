@@ -1,7 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
-using ECommerceWeb.Data;
-using ECommerceWeb.Models;
+using ECommerce.DataAccess;
+using ECommerce.Models;
 
 namespace ECommerceWeb.Controllers
 {
