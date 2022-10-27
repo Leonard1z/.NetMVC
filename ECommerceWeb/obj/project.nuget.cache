@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "77jnquGbrV1/8j39YBxam3yCrUlQ/RgINfOsEimddLeYPu6ROO0XYswAiP0jnBMV0U8RvLo+vKAihLNv27rkOg==",
+  "dgSpecHash": "0XlQcML1p5bVHOgN76HsS98Z2lp7Fs1bVq2TtyZ5aXDqAFH9e2PxCZ//qSonvsnWewZ1kW+LCXGXY4TIivzRSA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.10\\microsoft.aspnetcore.mvc.razor.extensions.6.0.10.nupkg.sha512",

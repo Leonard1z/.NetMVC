@@ -381,3 +381,7 @@ C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\refint\ECommerceWe
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.pdb
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.genruntimeconfig.cache
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ref\ECommerceWeb.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.DataAccess.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.Models.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.DataAccess.pdb
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.Models.pdb

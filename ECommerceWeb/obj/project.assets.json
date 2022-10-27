@@ -2654,11 +2654,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
       "projectName": "ECommerceWeb",
-      "projectPath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\ECommerceWeb.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2679,8 +2679,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj": {
-              "projectPath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj"
+            "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj"
             }
           }
         }

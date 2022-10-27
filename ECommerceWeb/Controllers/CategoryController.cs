@@ -55,17 +55,17 @@ namespace ECommerceWeb.Controllers
                 return NotFound();
             }
             //Find the primary key
-            var categoryFromDb = _db.Categories.Find(id);
-            // // return first element of the list
-            // var categoryFromDbFisrt = _db.Categories.FirstOrDefault(u => u.Id == id);
+            // var categoryFromDb = _db.Categories.Find(id);
+            // // return first element of the list 
+            var categoryFromDbFisrt = _db.Categories.FirstOrDefault(u => u.Id == id);
             // // returns first element if no empty
             // var categoryFromDbSingle = _db.Categories.SingleOrDefault(u=>u.Id==id);
 
-            if (categoryFromDb == null)
+            if (categoryFromDbFisrt == null)
             {
                 return NotFound();
             }
-            return View(categoryFromDb);
+            return View(categoryFromDbFisrt);
         }
 
         //POST
