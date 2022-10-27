@@ -118,7 +118,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1882,6 +1882,7 @@
     "net6.0": [
       "ECommerce.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10"
@@ -1894,11 +1895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\Ecommerce\\Ecommerce.DataAccess\\ECommerce.DataAccess.csproj",
       "projectName": "ECommerce.DataAccess",
-      "projectPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\ECommerce.DataAccess.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\Ecommerce.DataAccess\\ECommerce.DataAccess.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\Ecommerce.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1936,6 +1937,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.10, )"
           },
