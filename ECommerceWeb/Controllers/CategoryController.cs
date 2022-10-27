@@ -2,15 +2,16 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using ECommerce.DataAccess;
 using ECommerce.Models;
+using ECommerce.DataAccess.Repository.IRepository;
 
 namespace ECommerceWeb.Controllers
 {
 
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
+        private readonly ICategoryRepository _db;
 
-        public CategoryController(ApplicationDbContext db)
+        public CategoryController(ICategoryRepository db)
         {
             _db = db;
         }
@@ -18,7 +19,7 @@ namespace ECommerceWeb.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Category> objCategoryList = _db.Categories;
+            IEnumerable<Category> objCategoryList = _db.GetAll();
             return View(objCategoryList);
         }
 
@@ -40,8 +41,8 @@ namespace ECommerceWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _db.Add(obj);
+                _db.Save();
                 TempData["success"] = "Category created succesfully";
                 return RedirectToAction("Index");
             }
@@ -57,7 +58,7 @@ namespace ECommerceWeb.Controllers
             //Find the primary key
             // var categoryFromDb = _db.Categories.Find(id);
             // // return first element of the list 
-            var categoryFromDbFisrt = _db.Categories.FirstOrDefault(u => u.Id == id);
+            var categoryFromDbFisrt = _db.GetFirstOrDefault(u => u.Id == id);
             // // returns first element if no empty
             // var categoryFromDbSingle = _db.Categories.SingleOrDefault(u=>u.Id==id);
 
@@ -79,8 +80,8 @@ namespace ECommerceWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _db.Update(obj);
+                _db.Save();
                 TempData["success"] = "Category updated succesfully";
                 return RedirectToAction("Index");
             }
@@ -94,17 +95,17 @@ namespace ECommerceWeb.Controllers
                 return NotFound();
             }
             //Find the primary key
-            var categoryFromDb = _db.Categories.Find(id);
+            // var categoryFromDb = _db.Categories.Find(id);
             // // return first element of the list
-            // var categoryFromDbFisrt = _db.Categories.FirstOrDefault(u => u.Id == id);
+            var categoryFromDbFisrt = _db.GetFirstOrDefault(u => u.Id == id);
             // // returns first element if no empty
             // var categoryFromDbSingle = _db.Categories.SingleOrDefault(u=>u.Id==id);
 
-            if (categoryFromDb == null)
+            if (categoryFromDbFisrt == null)
             {
                 return NotFound();
             }
-            return View(categoryFromDb);
+            return View(categoryFromDbFisrt);
         }
 
         //POST
@@ -112,14 +113,15 @@ namespace ECommerceWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            var obj = _db.Categories.Find(id);
+
+            var obj = _db.GetFirstOrDefault(u => u.Id == id);
             if (obj == null)
             {
                 return NotFound();
             }
 
-            _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            _db.Remove(obj);
+            _db.Save();
             TempData["success"] = "Category deleted succesfully";
             return RedirectToAction("Index");
         }
