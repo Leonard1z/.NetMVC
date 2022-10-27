@@ -2,14 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ECommerce.Models;
 
 namespace ECommerce.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        ICategoryRepository Category { get; }
-        ICoverTypeRepository CoverType { get; }
-
-        void Save();
+        void Update(CoverType obj);
     }
 }
