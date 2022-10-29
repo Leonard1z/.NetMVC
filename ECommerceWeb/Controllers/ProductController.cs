@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ECommerce.DataAccess;
 using ECommerce.Models;
 using ECommerce.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ECommerceWeb.Controllers
 {
@@ -34,6 +35,13 @@ namespace ECommerceWeb.Controllers
         public IActionResult Upsert(int? id)
         {
             Product product = new();
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
+                u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }
+            );
             if (id == null || id == 0)
             {
                 //create product
