@@ -385,3 +385,6 @@ C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.DataAcce
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.Models.dll
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.DataAccess.pdb
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\ECommerce.Models.pdb
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

@@ -4,6 +4,7 @@ using ECommerce.DataAccess;
 using ECommerce.Models;
 using ECommerce.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ECommerce.Models.ViewModels;
 
 namespace ECommerceWeb.Controllers
 {
@@ -34,36 +35,42 @@ namespace ECommerceWeb.Controllers
         //GET
         public IActionResult Upsert(int? id)
         {
-            Product product = new();
-            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
-                u => new SelectListItem
+            ProductVM productVM = new()
+            {
+                Product = new(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
                 {
-                    Text = u.Name,
-                    Value = u.Id.ToString()
-                }
-            );
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+            };
+
             if (id == null || id == 0)
             {
                 //create product
-                return View(product);
+                //Transfer data from controller to view
+                // ViewBag.CategoryList = CategoryList;
+                // ViewData["CategoryList"] = CategoryList;
+                return View(productVM);
             }
             else
             {
                 //update product
             }
 
-            return View(product);
+            return View(productVM);
         }
 
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(CoverType obj)
+        public IActionResult Upsert(ProductVM obj, IFormFile file)
         {
 
             if (ModelState.IsValid)
             {
-                _unitOfWork.CoverType.Update(obj);
+                // _unitOfWork.CoverType.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "CoverType updated succesfully";
                 return RedirectToAction("Index");

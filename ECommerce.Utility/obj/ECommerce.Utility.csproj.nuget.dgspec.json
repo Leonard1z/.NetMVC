@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj": {}
+    "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj": {
+    "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj",
+        "projectUniqueName": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj",
         "projectName": "ECommerce.Utility",
-        "projectPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj",
+        "projectPath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\ECommerce.Utility.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\obj\\",
+        "outputPath": "c:\\Users\\asus\\Desktop\\Ecommerce\\ECommerce.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
