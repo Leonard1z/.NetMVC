@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3HMrMpOZtJDNz/HoLh9WwV8U9p57FJ66RmpgI9eDIt0=",
+  "Hash": "Eo2rwIwkx6tybABTORBQT5e88pfkCzT2GXU2zK3cF5Y=",
   "Source": "ECommerceWeb",
   "BasePath": "_content/ECommerceWeb",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\images\\products\\ffcaa9f7-253a-497c-8db0-dc32b0f0653c.jpg",
+      "SourceId": "ECommerceWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\",
+      "BasePath": "_content/ECommerceWeb",
+      "RelativePath": "images/products/ffcaa9f7-253a-497c-8db0-dc32b0f0653c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ffcaa9f7-253a-497c-8db0-dc32b0f0653c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\js\\product.js",
+      "SourceId": "ECommerceWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\",
+      "BasePath": "_content/ECommerceWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\js\\site.js",
