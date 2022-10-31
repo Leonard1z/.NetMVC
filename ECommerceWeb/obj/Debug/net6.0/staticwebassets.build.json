@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yLQ1vDKedW4g7w2inYEECqOnglhDlee/WINI8FveC3k=",
+  "Hash": "NR8yuQkCg0b3bwK9qQmGyfZyjlo45oaNNmQLhsXNg00=",
   "Source": "ECommerceWeb",
   "BasePath": "_content/ECommerceWeb",
   "Mode": "Default",
@@ -117,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\a26d5921-e7c9-4fee-bb0e-bffbd630202c.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\images\\products\\f06b26de-5b77-4c3d-8596-e106a8b602d5.jpg",
-      "SourceId": "ECommerceWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\",
-      "BasePath": "_content/ECommerceWeb",
-      "RelativePath": "images/products/f06b26de-5b77-4c3d-8596-e106a8b602d5.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\f06b26de-5b77-4c3d-8596-e106a8b602d5.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\js\\product.js",
