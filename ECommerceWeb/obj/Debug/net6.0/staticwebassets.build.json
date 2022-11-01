@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NR8yuQkCg0b3bwK9qQmGyfZyjlo45oaNNmQLhsXNg00=",
+  "Hash": "r5jqOYk68zBmsxdN1EbIsjyA00Hr8+cLje7/2/X6qeg=",
   "Source": "ECommerceWeb",
   "BasePath": "_content/ECommerceWeb",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ECommerceWeb.styles.css",
-      "SourceId": "ECommerceWeb",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/ECommerceWeb",
-      "RelativePath": "ECommerceWeb.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ECommerceWeb.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ECommerceWeb.bundle.scp.css",
-      "SourceId": "ECommerceWeb",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ECommerceWeb",
-      "RelativePath": "ECommerceWeb.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ECommerceWeb.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\asus\\Desktop\\Ecommerce\\ECommerceWeb\\wwwroot\\css\\bootswatchTheme.css",
       "SourceId": "ECommerceWeb",

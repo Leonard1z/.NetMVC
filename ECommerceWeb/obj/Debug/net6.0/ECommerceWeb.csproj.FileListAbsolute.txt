@@ -372,9 +372,7 @@ C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.Razor
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.RazorAssemblyInfo.cs
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\scopedcss\bundle\ECommerceWeb.styles.css
-C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\scopedcss\projectbundle\ECommerceWeb.bundle.scp.css
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.csproj.CopyComplete
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\ECommerceWeb.dll
 C:\Users\asus\Desktop\Ecommerce\ECommerceWeb\obj\Debug\net6.0\refint\ECommerceWeb.dll
